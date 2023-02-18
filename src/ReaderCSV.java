@@ -4,6 +4,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ReaderCSV {
+    /**
+     * Lee un archivo CSV que contiene una matriz y devuelve una matriz de enteros.
+     * @param filePath
+     * @return
+     */
     public static ArrayList<ArrayList<Integer>> readGraph(String filePath) {
         // Crea un nuevo objeto ArrayList bidimensional para almacenar la matriz
         ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
@@ -35,5 +40,4 @@ public class ReaderCSV {
         // Devuelve la matriz
         return graph;
     }
-
 }
