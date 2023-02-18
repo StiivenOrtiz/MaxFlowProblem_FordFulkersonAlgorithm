@@ -1,6 +1,6 @@
 # MaxFlowProblem_FordFulkersonAlgorithm
 
-This is a application of the Ford Fulkerson Algorithm in Java using a adyacency matriz has been read from a file csv.
+This is an application of the Ford-Fulkerson algorithm in Java using an adjacency matrix that has been read from a CSV file.
 
 ## Participants
 - Stiven Ortiz Noreña
